@@ -1,0 +1,39 @@
+{
+  "name": "voni-ai-wabot",
+  "version": "1.0.0",
+  "description": "Smart assitant named VONI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Roxy migurdia: lu ngetest apaan bjirr, gk ada yg buat ngetest cokk...\" && exit 1",
+    "new": "node index.js --pairing",
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztrdiamond/voni-ai-wabot.git"
+  },
+  "keywords": [
+    "baileys",
+    "ztrdiamond",
+    "whatsapp-bot",
+    "bot",
+    "whatsapp",
+    "api"
+  ],
+  "author": "ZTRdiamond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztrdiamond/voni-ai-wabot/issues"
+  },
+  "homepage": "https://github.com/ztrdiamond/voni-ai-wabot#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.7",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.4",
+    "moment-timezone": "^0.5.45",
+    "pino": "^8.18.0"
+  }
+}
