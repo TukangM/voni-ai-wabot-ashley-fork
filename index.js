@@ -103,6 +103,7 @@ zxn.ev.on("messages.upsert", async ({ messages }) => {
   try {
     if (m.fromMe) return;
     if(/status@broadcast/.test(m.key.remoteJid)) return;
+    if(m.key.remoteJid.endsWith("@g.us")) return;
 
     if (m.body.startsWith("help")) {
       zxn.sendPresenceUpdate("composing", m.from);
