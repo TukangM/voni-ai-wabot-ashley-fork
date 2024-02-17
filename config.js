@@ -18,20 +18,20 @@ colors.setTheme({
 });
 
 // config
-global.bot = "62856971039021"
-global.botName = "ZanixonMD | Whatsapp Bot"
-global.owner = ["6285697103902"]
+global.bot = "6283838444729"
+global.botName = "ZanixonMD - TukangM - SayaAEP | WhatsApp Bot / beta.character.ai"
+global.owner = ["6282284960188"]
 global.tmp = "/tmp"
 
 let year = moment().tz('Asia/Jakarta').format('YYYY');
 global.thumbnail = {
-  title: "Voni Assistant",
-  body: `Copyright © Zanixon Group ${year} - All right reserved`,
-  thumbnail: "./zanixon/zanixonmd.png",
+  title: "Ashley character.ai Assistant",
+  body: `Copyright © TukangM - ZanixonMD ${year} - All right reserved`,
+  thumbnail: "./zanixon/furry2c.jpg",
   mediaType: 1,
   previewType: 0,
   renderLargerThumbnail: false,
-  sourceUrl: `https://trakteer.id/zanixongroup`
+  sourceUrl: `https://tukangm.github.io`
 }
 
 global.api = {
