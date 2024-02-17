@@ -35,7 +35,7 @@ global.thumbnail = {
 }
 
 global.api = {
-	znapi: { // register di https://api.zanixon.xyz
+	znapi: "eVs0afdEJuGMiplWF840CHEoqkQTXb"
 	  base: "https://api.zanixon.xyz/api/",
 	  key: process.env.ZNAPI
 	},
